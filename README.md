@@ -2,9 +2,9 @@
 
 1) Convert this to a JavaScript/NodeJS project
 
-Since we are building a JavaScript project, it is best to use JavaScript building techniques.  In this case, NodeJS and NPM are used
+   Since we are building a JavaScript project, it is best to use JavaScript building techniques.  In this case, NodeJS and NPM are used
 
-Make sure nodeJS and npmJS are installed.
+   Make sure nodeJS and npmJS are installed.
 
 ```bash
 $ npm init
