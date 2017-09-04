@@ -1,5 +1,7 @@
 # Basic Startup Project for Web Development
 
+[YouTube Video of this github repository](https://youtu.be/IaBZZvsMJMs)
+
 1) Convert this to a JavaScript/NodeJS project
 
    Since we are building a JavaScript project, it is best to use JavaScript building techniques.  In this case, NodeJS and NPM are used
@@ -31,5 +33,3 @@ $ npm install --save-dev lite-server
 ```bash
 $ npm run dev
 ```
-
-[YouTube Video of this github repository](https://youtu.be/IaBZZvsMJMs)
