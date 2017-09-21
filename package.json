@@ -1,6 +1,6 @@
 {
   "name": "basic-startup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "1) Convert this to a JavaScript/NodeJS project",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,7 @@
   "homepage": "https://github.com/effwww/basic-startup#readme",
   "devDependencies": {
     "lite-server": "^2.3.0"
+  },
+  "dependencies": {
   }
 }
