@@ -7,29 +7,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="/node_modules/jquery-ui-bundle/jquery-ui.css" />
 	<link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css" />
   </head>
   <body>
-	<p id="paragraph1">1st paragraph in index.html</p>
-
-	<div class="dropdown">
-			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			  Dropdown button
-			</button>
-			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-			  <a class="dropdown-item" href="#">Action</a>
-			  <a class="dropdown-item" href="#">Another action</a>
-			  <a class="dropdown-item" href="#">Something else here</a>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<p id="paragraph1">1st paragraph in index.html</p>
+				</div>
 			</div>
-	</div>
 
-	<div id="EOB">End of Body</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div id="slider"></div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown button
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<div id="EOB">End of Body</div>
+				</div>
+			</div>
+		</div>
 
     <!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="/node_modules/jquery/dist/jquery.js"></script>
+		<script src="/node_modules/jquery-ui-bundle/jquery-ui.js"></script>
 		<script src="/node_modules/popper.js/dist/umd/popper.js"></script>
 		<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+		<script>
+			$(function() {
+				$("#slider").slider();
+			});
+		</script>
 
   </body>
 </html>
