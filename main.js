@@ -1,3 +1,5 @@
+"use strict";
+
 requirejs.config({
     // baseUrl: "/features",
     // waitSeconds: 10,
