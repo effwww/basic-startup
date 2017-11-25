@@ -1,8 +1,8 @@
 /*
     Area of Circle = PI * radius * radius
 */ 
-define(['constants'], function(constants) {
+define(['./ellipse'], function(ellipse) {
     return function(radius) {
-        return constants.PI * radius * radius;
+        return ellipse(radius, radius);
     };
 });

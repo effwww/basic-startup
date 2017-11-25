@@ -1,8 +1,8 @@
 /*
 Area of Square = Side x Side or Square of a Side
 */
-define(function() {
+define(['./rectangle'], function(rectangle) {
     return function(side) {
-        return side * side;
+        return rectangle(side, side);
     };
 });
